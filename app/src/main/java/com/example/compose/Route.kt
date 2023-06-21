@@ -1,5 +1,5 @@
-package com.example.compose
+package com.example.composer
 
-sealed class Route (val route: String) {
+sealed class Route(val route: String) {
     object Login : Route("Login")
 }
